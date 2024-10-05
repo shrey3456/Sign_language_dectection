@@ -1,0 +1,37 @@
+/* src/components/Header.css */
+.navbar {
+    background-color:black; /* Background color of the navbar */
+    padding: .2rem;          /* Padding around the navbar */
+    display: flex;          /* Use flexbox layout */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;    /* Center items vertically */
+}
+
+.logo {
+    color: white;           /* Logo text color */
+    font-size: 1.5rem;   
+    padding-left: .5rem;  /* Logo font size */
+}
+
+.navbar-menu {
+    list-style: none;       /* Remove bullet points */
+    display: flex;          /* Use flexbox layout for the links */
+    gap: 2rem;   
+    font-size: 17px       /* Space between links */
+}
+
+.navbar-menu li {
+    display: inline;        /* Display links inline */
+}
+
+.navbar-menu li a {
+    color: white;           /* Link text color */
+    text-decoration: none;  /* Remove underline from links */
+    padding: 0.5rem 1rem;  /* Padding around the links */
+    border-radius: 4px;    /* Rounded corners */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.navbar-menu li a:hover {
+    background-color: #444; /* Change background on hover */
+}

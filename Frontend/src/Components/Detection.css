@@ -1,0 +1,52 @@
+/* Detection.css */
+
+.detection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+.detection-container h2 {
+    margin-bottom: 20px;
+    color: white
+}
+
+.detection-container button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.detection-container button:hover {
+    background-color: #45a049;
+}
+
+.detection-container input[type="file"] {
+    margin: 10px 0;
+}
+
+.detection-container img {
+    margin-top: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    max-width: 100%; /* Ensure responsiveness */
+    height: auto;
+}
+
+.permission-message {
+    color: #e74c3c; /* Red for error */
+    margin-top: 20px;
+    text-align: center;
+}
