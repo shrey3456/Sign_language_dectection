@@ -5,7 +5,12 @@ const Header = () => {
   return (
     <>
         <nav className='navbar'>
-        <h1 className='logo'>Logo</h1>
+    
+            <img  className='logo'
+            src="/logo.png" // Replace with actual image URL
+            alt="logo"
+          />
+      
         <ul className='navbar-menu'>
         <li>
           <Link to="/">Home</Link>

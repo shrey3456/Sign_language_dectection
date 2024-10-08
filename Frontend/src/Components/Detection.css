@@ -1,6 +1,6 @@
 /* Detection.css */
 
-.detection-container {
+/* .detection-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,11 +16,12 @@
 .detection-container h2 {
     margin-bottom: 20px;
     color: white
+    
 }
 
 .detection-container button {
     background-color: #4CAF50; /* Green */
-    color: white;
+    /* color: white;
     border: none;
     padding: 10px 20px;
     margin: 10px;
@@ -41,12 +42,106 @@
     margin-top: 10px;
     border: 2px solid #ddd;
     border-radius: 5px;
-    max-width: 100%; /* Ensure responsiveness */
+    max-width: 100%; 
     height: auto;
 }
 
 .permission-message {
-    color: #e74c3c; /* Red for error */
+    color: #e74c3c;
     margin-top: 20px;
     text-align: center;
+} */ 
+
+/* Detection.css */
+
+body {
+    margin: 0;
+        font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #000000 0%, #808080 100%);}
+
+.detection-container {
+
+
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:focus {
+    outline: none;
+}
+
+input[type="file"] {
+    padding: 10px;
+    margin: 15px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.permission-message {
+    color: #e74c3c;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.permission-message p {
+    margin-bottom: 15px;
+}
+
+button.retry {
+    background-color: #e74c3c;
+}
+
+button.retry:hover {
+    background-color: #d62c1a;
+}
+
+@media (max-width: 768px) {
+    .detection-container {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
 }
