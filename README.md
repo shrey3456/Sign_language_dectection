@@ -19,9 +19,3 @@ Below are examples of the app's output:
   <img src="image3.png" width="45%" />
   <img src="image4.png" width="45%" />
 </p>
-
-> Place your output images in the `assets` folder and update the paths if needed.
-
-## License
-
-This project is licensed under the MIT License.
